@@ -1,12 +1,6 @@
 <?php
-function add(a, b) {
-
-	return a + b;
+function writeMsg() {
+    echo "Hello world!";
 }
 
-function sub(a, b) {
-
-	return a - b;
-}
-
-echo add(10, 12) . '<br>' . sub(100, 12);
+echo writeMsg();

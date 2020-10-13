@@ -1,2 +1,7 @@
 <?php
-echo phpinfo();
+function add(a, b) {
+
+	return a + b;
+}
+
+echo add(10+12);
